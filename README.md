@@ -29,12 +29,12 @@ server docker node
   ```
 
 # Docker Tips
-  ## Build Docker Container
+  ## Build Container
   How to build an image with custom name without using yml file:  
   ```
   docker build -t image_name .
   ```
-  ## Run Container
+  ## Create/Run Container
   How to run a container with custom name:
   ```
   docker run -d --name <container_name> <image_name>
@@ -49,7 +49,7 @@ server docker node
   ```
   docker exec -it <container_Id> /bin/bash
   ```
-  ## Editing container  
+  ## Edit container  
   Check for Vim editor ```Vim <server.js>```  
   Command to insert text ```i```
   Command to close/exit without saving ```ESC``` ```:q!```   
