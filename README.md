@@ -49,4 +49,7 @@ server docker node
   ```
   docker exec -it <container_Id> /bin/bash
   ```
-  
+  Restart container after changing files/edits:
+  ```
+  docker restart <container_Id>
+  ```
