@@ -52,10 +52,11 @@ server docker node
   ## Edit container  
   Check for Vim editor ```Vim <server.js>```  
   Command to insert text ```i```
-  Command to close/exit without saving ```ESC``` ```:q!```   
+  Command to close/exit without saving ```ESC``` ```:q!``` or ```:q```  
   Command to close/exit with saving ```ESC``` ```:wq!``` or  ```:wq```
   
   Restart Server/Container after edits:
   ```
   docker restart <container_Id>
   ```
+  
