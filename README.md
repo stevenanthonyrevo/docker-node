@@ -31,9 +31,9 @@ server docker node
 # Docker Tips
   ## Build Docker Container
   1. How to build an image with custom name without using yml file:
-  ```
-  docker build -t image_name .
-  ```
+    ```
+    docker build -t image_name .
+    ```
   ## Run Container
   2. How to run a container with custom name:
      ```
