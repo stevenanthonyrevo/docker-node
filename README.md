@@ -1,6 +1,17 @@
 # docker-node
 server docker node
 
+
+# Docker Tools 
+  How to build an image with custom name without using yml file:
+  ```
+  docker build -t image_name .
+  ```
+  How to run a container with custom name:
+  ```
+  docker run -d --name container_name image_name
+  ```
+
 # Install Tools
   ```
   apt-get update
