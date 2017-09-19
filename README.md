@@ -2,7 +2,7 @@
 server docker node
 
 
-# Install Tools
+  ## Install Tools
   ```
   apt-get update
   apt-get install vim
@@ -43,3 +43,10 @@ server docker node
   ```
   docker run -d -p <host_port>:<container_port> --name <custom_name> <img_name> 
   ```
+  ## Access Container 
+  
+  Start bash program within container:   
+  ```
+  docker exec -it <container_Id> /bin/bash
+  ```
+  
