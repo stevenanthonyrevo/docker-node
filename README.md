@@ -36,9 +36,10 @@ server docker node
     ```
   ## Run Container
   2. How to run a container with custom name:
-     ```
+    ```
     docker run -d --name <container_name> <image_name>
-     ```
+    ```
+
     Specific ports exposed with custom name:
     ```
     docker run -d -p <host_port>:<container_port> --name <custom_name> <img_name> 
