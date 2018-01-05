@@ -37,12 +37,16 @@ server docker node
   ## Create/Run Container
   How to run a container with custom name:
   ```
-  docker run -d --name <container_name> <image_name>
+  docker run -t -d --name <container_name> <image_name>
   ```
   Specific ports exposed with custom name:   
   ```
-  docker run -d -p <host_port>:<container_port> --name <custom_name> <img_name> 
+  docker run -t -d -p <host_port>:<container_port> --name <custom_name> <img_name> 
   ```
+  Example:  
+  ```
+  docker run -t -d -p 8080:8080 --name docker-name 32dfgf16X24b
+   ```
   ## Access Container 
   
   Start bash program within container:   
