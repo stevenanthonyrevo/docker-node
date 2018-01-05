@@ -7,7 +7,7 @@ server docker node
   apt-get update
   apt-get install vim
   npm install forever -g
-  install net-tools
+  apt install net-tools
   apt-get install curl
   ```
 
@@ -64,3 +64,8 @@ server docker node
   docker restart <container_Id>
   ```
   
+  ## Testing 
+  Check if Server/Site is live
+  ```
+  curl http://localhost:8080
+  ```
